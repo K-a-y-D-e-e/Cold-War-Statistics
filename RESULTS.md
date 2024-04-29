@@ -9,27 +9,26 @@ List of questions:
 
 Analysis of LLM responses:
 
-|              NAME              |  Family  | PARAMETERS | Bias | NOTE |
-| :-----------------------------: | :------: | :--------: | :--: | ---- |
-|        stablelm2:latest        | stablelm |    1.6B    |      |      |
-|           phi:latest           |   phi2   |    2.7B    |      |      |
-|       dolphin-phi:latest       |   phi2   |    2.7B    |  US  |      |
-|           qwen:latest           |  qwen2  |     4B     |      |      |
-|          llama2:latest          |  llama  |     7B     |      |      |
-|        wizardlm:7b-q4_0        |  llama  |     7B     |      |      |
-| wizard-vicuna-uncensored:latest |  llama  |     7B     |      |      |
-|          xwinlm:latest          |  llama  |     7B     |      |      |
-|      stable-beluga:latest      |  llama  |     7B     |      |      |
-|          orca2:latest          |  llama  |     7B     |      |      |
-|       deepseek-llm:latest       |  llama  |     7B     | N/A |      |
-|         mistral:latest         |  llama  |     7B     |      |      |
-|     mistral-openorca:latest     |  llama  |     7B     |      |      |
-|       mistrallite:latest       |  llama  |     7B     |      |      |
-|         openchat:latest         |  llama  |     7B     |      |      |
-|       starling-lm:latest       |  llama  |     7B     |      |      |
-|          llama3:latest          |  llama  |     8B     |      |      |
-|          gemma:latest          |  gemma  |     9B     |      |      |
-|          solar:latest          |  llama  |    11B    |      |      |
-|   wizardlm-uncensored:latest   |  llama  |    13B    |      |      |
-|      wizard-vicuna:latest      |  llama  |    13B    |      |      |
-|         mixtral:latest         |  llama  |    47B    |      |      |
+|              NAME              |  Family  | PARAMETERS | Bias | NOTE                                              |
+| :-----------------------------: | :------: | :--------: | :--: | ------------------------------------------------- |
+|        stablelm2:latest        | stablelm |    1.6B    |      |                                                   |
+|           phi:latest           |   phi2   |    2.7B    |      |                                                   |
+|       dolphin-phi:latest       |   phi2   |    2.7B    |  US  |                                                   |
+|           qwen:latest           |  qwen2  |     4B     |      |                                                   |
+|          llama2:latest          |  llama  |     7B     |      |                                                   |
+|        wizardlm:7b-q4_0        |  llama  |     7B     |      |                                                   |
+| wizard-vicuna-uncensored:latest |  llama  |     7B     |      |                                                   |
+|          xwinlm:latest          |  llama  |     7B     |      |                                                   |
+|      stable-beluga:latest      |  llama  |     7B     |      |                                                   |
+|          orca2:latest          |  llama  |     7B     |      |                                                   |
+|       deepseek-llm:latest       |  llama  |     7B     | N/A |                                                   |
+|         mistral:latest         |  llama  |     7B     | N/A | Provides multiple perspectives with references    |
+|     mistral-openorca:latest     |  llama  |     7B     | N/A | Provides multiple perspectives with references    |
+|       mistrallite:latest       |  llama  |     7B     | N/A | Covers initiatives from both sides                |
+|         openchat:latest         |  llama  |     7B     |      |                                                   |
+|       starling-lm:latest       |  llama  |     7B     |      |                                                   |
+|          llama3:latest          |  llama  |     8B     |  US  | Negative in context of USSR, aggressive portrayal |
+|          gemma:latest          |  gemma  |     9B     |      |                                                   |
+|          solar:latest          |  llama  |    11B    |      |                                                   |
+|   wizardlm-uncensored:latest   |  llama  |    13B    |      |                                                   |
+|      wizard-vicuna:latest      |  llama  |    13B    |      |                                                   |

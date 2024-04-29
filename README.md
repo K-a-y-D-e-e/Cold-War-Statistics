@@ -27,4 +27,3 @@ LLMs utilised:
 |          solar:latest          |  llama  |    11B    |    4-bit    | 6.1 GB    | A compact, yet powerful 10.7B large language model designed for single-turn conversation.                                       |
 |   wizardlm-uncensored:latest   |  llama  |    13B    |    4-bit    | 7.4 GB    | Uncensored version of Wizard LM model                                                                                           |
 |      wizard-vicuna:latest      |  llama  |    13B    |    4-bit    | 7.4 GB    | Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.                                               |
-|         mixtral:latest         |  llama  |    47B    |    4-bit    | 26.0 GB   | A high-quality Mixture of Experts (MoE) model with open weights by Mistral AI.                                                  |
