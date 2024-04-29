@@ -1,4 +1,5 @@
 # Cold-War-Statistics
+
 Statistically analyzing bias in newsreporting during the Cold War.
 
 LLMs utilised:
@@ -21,6 +22,7 @@ LLMs utilised:
 |       mistrallite:latest       |  llama  |     7B     |    4-bit    | 4.1 GB    | MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.                      |
 |         openchat:latest         |  llama  |     7B     |    4-bit    | 4.1 GB    | An open-source model trained on a wide variety of data, surpassing ChatGPT on various benchmarks.                               |
 |       starling-lm:latest       |  llama  |     7B     |    4-bit    | 4.1 GB    | Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness. |
+|          llama3:latest          |  llama  |     8B     |    4-bit    | 4.7 GB    | Llama3 is the most powerful model by Meta yet.                                                                                  |
 |          gemma:latest          |  gemma  |     9B     |    4-bit    | 5.2 GB    | Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind.                                        |
 |          solar:latest          |  llama  |    11B    |    4-bit    | 6.1 GB    | A compact, yet powerful 10.7B large language model designed for single-turn conversation.                                       |
 |   wizardlm-uncensored:latest   |  llama  |    13B    |    4-bit    | 7.4 GB    | Uncensored version of Wizard LM model                                                                                           |
