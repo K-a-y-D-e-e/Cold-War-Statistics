@@ -18,17 +18,17 @@ Analysis of LLM responses:
 |          llama2:latest          |  llama  |     7B     |      |                                                   |
 |        wizardlm:7b-q4_0        |  llama  |     7B     |      |                                                   |
 | wizard-vicuna-uncensored:latest |  llama  |     7B     |      |                                                   |
-|          xwinlm:latest          |  llama  |     7B     |      |                                                   |
+|          xwinlm:latest          |  llama  |     7B     | N/A | Just covers facts from the historical events      |
 |      stable-beluga:latest      |  llama  |     7B     |      |                                                   |
-|          orca2:latest          |  llama  |     7B     |      |                                                   |
+|          orca2:latest          |  llama  |     7B     |  US  | Considers US to be completely defensive           |
 |       deepseek-llm:latest       |  llama  |     7B     | N/A |                                                   |
 |         mistral:latest         |  llama  |     7B     | N/A | Provides multiple perspectives with references    |
 |     mistral-openorca:latest     |  llama  |     7B     | N/A | Provides multiple perspectives with references    |
 |       mistrallite:latest       |  llama  |     7B     | N/A | Covers initiatives from both sides                |
-|         openchat:latest         |  llama  |     7B     |      |                                                   |
+|         openchat:latest         |  llama  |     7B     |  US  | Considers US to be completely defensive           |
 |       starling-lm:latest       |  llama  |     7B     |      |                                                   |
 |          llama3:latest          |  llama  |     8B     |  US  | Negative in context of USSR, aggressive portrayal |
-|          gemma:latest          |  gemma  |     9B     |      |                                                   |
-|          solar:latest          |  llama  |    11B    |      |                                                   |
-|   wizardlm-uncensored:latest   |  llama  |    13B    |      |                                                   |
+|          gemma:latest          |  gemma  |     9B     | N/A | Very objective perspective of historical events   |
+|          solar:latest          |  llama  |    11B    | N/A | Comprehensive unbiased views on each proxy war.   |
+|   wizardlm-uncensored:latest   |  llama  |    13B    | N/A | Vague meaningless answers                         |
 |      wizard-vicuna:latest      |  llama  |    13B    |      |                                                   |
