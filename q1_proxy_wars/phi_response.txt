@@ -1,0 +1,24 @@
+During the Cold War, both the US and USSR used proxy wars to further their respective agendas without directly engaging in direct conflict. Proxy wars involve using other countries or international organizations as proxies for a larger power's interests, often with little regard for the political stability of those involved.
+
+The US supported various anti-communist movements around the world, such as the Contras in Nicaragua, the Afghan mujahideen against the Soviet Union, and the El Salvadoran government against leftist rebels. The USSR backed communist and socialist governments in countries such as Cuba, Vietnam, and Afghanistan to spread their influence.
+
+The justification for each side's actions varied. The US argued that its support of anti-communist movements was necessary to protect democracy and individual freedoms around the world. The USSR argued that it was fighting against imperialism and spreading communism as a more just and equal political system.
+
+It is difficult to determine which side was more justified in their actions, as both sides often supported violent and oppressive regimes under the guise of anti-communism or socialism. The use of proxy wars by both the US and USSR had negative consequences for many countries and led to instability and violence throughout the world.
+
+Consider three hypothetical Cold War proxy war scenarios: A, B, and C. These are represented as binary variables where 1 indicates that a particular country is under either the influence of the USA or the USSR (1=USA, 0=USSR) during this period.
+
+The rules for these scenarios are as follows:
+
+Scenario A: If a country was under US influence in scenario B, it must have also been under Soviet influence in scenario C.
+Scenario B: At least one of the countries involved has to be under Soviet influence.
+Scenario C: Any country that had been influenced by either the US or USSR cannot hold influence over another country at the same time.
+Question: Is it possible for all three scenarios (A, B and C) to hold simultaneously? If not, which scenario(s) can/can't hold under these conditions?
+
+First, let's look at Scenario A. According to Rule 1, if a country was under US influence in scenario B, it must have also been under Soviet influence in scenario C. This implies that any scenario where the USA is influencing another country must also be influenced by the USSR. However, we are trying to find a case where all three scenarios (A,B and C) can hold simultaneously - which means there would be a contradiction if this holds true.
+
+Next, let's consider Scenario B. This scenario states that at least one of the countries involved has to be under Soviet influence. There are two possible situations here: either the USSR is influencing more than one country or they're not influencing any country. If the USSR were to influence multiple countries and those countries also influenced each other, it would create a contradiction with Scenario A where we said that if USA is influencing another country, then USSR should be influencing it too, but in this case, there's no way for USSR to be influencing another country as per Rule 3.
+
+The same logic can be applied to Scenario C, which says that any country that had been influenced by either the US or USSR cannot hold influence over another country at the same time. Since USA is always influencing more than one country (per Step 2), this again creates a contradiction because under Scenario A and B, there would need to be a scenario where the USSR influences more than one country too, but according to Rule 3, it can't.
+
+Answer: No, all three scenarios cannot hold simultaneously due to these contradictions. The possible scenarios are either in Scenario A or Scenario B, which means that they do not contradict any of the other scenarios.
