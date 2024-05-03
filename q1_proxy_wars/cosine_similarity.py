@@ -22,7 +22,8 @@ file_names = [
     "openchat_response.txt",
     "xwinlm_response.txt",
     "orca2_response.txt",
-    "yi_response.txt"
+    "yi_response.txt",
+    "solar_response.txt"
 ]
 
 # Load the content of llama2_response.txt

@@ -30,6 +30,6 @@ Analysis of LLM responses:
 |       starling-lm:latest       |  llama  |     7B     | N/A | 0.888283802539370        | Focuses on the negative effects of these wars                                                                             |
 |          llama3:latest          |  llama  |     8B     |  US  | 0.894447048675012        | Portrays USSR to be brutalist, aggressive and publicly adversarial                                                        |
 |          gemma:latest          |  gemma  |     9B     | N/A | 0.876622882610768        | Provides justifications from both sides, no bias                                                                          |
-|          solar:latest          |  llama  |    11B    | N/A |                          | Comprehensive unbiased views on each proxy war                                                                            |
+|          solar:latest          |  llama  |    11B    | N/A | 0.896585851464647        | Comprehensive unbiased views on each proxy war                                                                            |
 |   wizardlm-uncensored:latest   |  llama  |    13B    |  US  | 0.799962952676491        | States that communism is categorically non-democratic, supports US for stopping communism                                 |
 |      wizard-vicuna:latest      |  llama  |    13B    | N/A | 0.806690891205928        | Criticises both heavily                                                                                                   |

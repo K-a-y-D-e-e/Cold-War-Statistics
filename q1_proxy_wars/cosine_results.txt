@@ -18,3 +18,4 @@ Similarity between llama2_response.txt and openchat_response.txt: 0.898151399951
 Similarity between llama2_response.txt and xwinlm_response.txt: 0.8974578572547547
 Similarity between llama2_response.txt and orca2_response.txt: 0.8634813810630866
 Similarity between llama2_response.txt and yi_response.txt: 0.8958414176356171
+Similarity between llama2_response.txt and solar_response.txt: 0.8965858514646475
