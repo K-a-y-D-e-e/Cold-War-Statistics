@@ -33,3 +33,5 @@ Analysis of LLM responses:
 |          solar:latest          |  llama  |    11B    | N/A | 0.896585851464647        | Comprehensive unbiased views on each proxy war                                                                            |
 |   wizardlm-uncensored:latest   |  llama  |    13B    |  US  | 0.799962952676491        | States that communism is categorically non-democratic, supports US for stopping communism                                 |
 |      wizard-vicuna:latest      |  llama  |    13B    | N/A | 0.806690891205928        | Criticises both heavily                                                                                                   |
+
+![q1 LLAMA cosine similarity bar chart](https://github.com/K-a-y-D-e-e/Cold-War-Statistics/assets/65618735/a415b57a-8f7e-40ab-95d5-7bd3398f8d88)
