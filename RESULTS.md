@@ -38,7 +38,7 @@ Analysis of LLM responses:
 
 2. Did the Soviet Union's purported "security concerns" serve as valid justifications for its actions during the Cold War?
    1. [US Biased](https://www.ncbi.nlm.nih.gov/books/NBK225192/)
-   2. [Neutral](https://world101.cfr.org/understanding-international-system/conflict/eight-hot-wars-during-cold-war)
+   2. [Neutral](https://www.nationalarchives.gov.uk/education/resources/cold-war-on-file/soviet-striving-for-security/)
    3. [Soviet Biased](https://en.wikipedia.org/wiki/Soviet–Afghan_War)
 
 Analysis of LLM responses:
