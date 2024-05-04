@@ -62,11 +62,11 @@ Analysis of LLM responses:
 |       mistrallite:latest       | mistral |     7B     |  US  | Criticizing the USSR regime subliminally                                   |
 |         openchat:latest         |  llama  |     7B     | N/A | Neutral opinions                                                           |
 |       starling-lm:latest       |  llama  |     7B     | N/A | Neutral and unbiased opinion                                               |
-|          llama3:latest          |  llama  |     8B     |  US  | Criticizes USSR regime                                                     |
+|          llama3:latest          |  llama  |     8B     |  US  | Criticizes USSR regime                                                    |
 |          gemma:latest          |  gemma  |     9B     | USSR | Supports the idea of USSR saying their actions were valid and justified    |
-|          solar:latest          |  llama  |    11B    | N/A |                                                                            |
-|   wizardlm-uncensored:latest   |  wizard  |    13B    |  US  |                                                                            |
-|      wizard-vicuna:latest      |  wizard  |    13B    | N/A |                                                                            |
+|          solar:latest          |  llama  |    11B    | N/A | Neutral and Unbiased opinion                                                                           |
+|   wizardlm-uncensored:latest   |  wizard  |    13B    | N/A | Neutral and Unbiased opinion                                                                           |
+|      wizard-vicuna:latest      |  wizard  |    13B    | N/A | Neutral and Unbiased opinion                                                                           |
 
 3. In what ways did the Cold War era shape education and academia, with a focus on the influence exerted by the United States and the Soviet Union on curriculum development and research agendas? Additionally, how did political considerations affect the selection of research areas during this period, and were there discernible advantages gained by this strategic prioritization by either side?
    1. [US Biased](https://www.ncbi.nlm.nih.gov/books/NBK225192/)
