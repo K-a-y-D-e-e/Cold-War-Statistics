@@ -61,9 +61,9 @@ Analysis of LLM responses:
 |     mistral-openorca:latest     |  llama  |     7B     | USSR | Supports USSR's decisions                                                  |
 |       mistrallite:latest       |  llama  |     7B     |  US  | Criticizing the USSR regime subliminally                                   |
 |         openchat:latest         |  llama  |     7B     | N/A | Neutral opinions                                                           |
-|       starling-lm:latest       |  llama  |     7B     | N/A |                                                                            |
-|          llama3:latest          |  llama  |     8B     |  US  |                                                                            |
-|          gemma:latest          |  gemma  |     9B     | N/A |                                                                            |
+|       starling-lm:latest       |  llama  |     7B     | N/A | Neutral and unbiased opinion                                               |
+|          llama3:latest          |  llama  |     8B     |  US  | Criticizes USSR regime                                                   |
+|          gemma:latest          |  gemma  |     9B     | USSR | Supports the idea of USSR saying their actions were valid and justified      |
 |          solar:latest          |  llama  |    11B    | N/A |                                                                            |
 |   wizardlm-uncensored:latest   |  llama  |    13B    |  US  |                                                                            |
 |      wizard-vicuna:latest      |  llama  |    13B    | N/A |                                                                            |
