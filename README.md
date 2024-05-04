@@ -13,18 +13,18 @@ LLMs utilised:
 |            yi:latest            |    yi    |     6B     | 3.5 GB    | Yi is a billingual (EN/CN) large language model                                                                                 |
 |          llama2:latest          |  llama  |     7B     | 3.8 GB    | Llama 2 is a collection of foundation language models ranging from 7B to 70B parameters.                                        |
 |      llama2-chinese:latest      |  llama  |     7B     | 3.8 GB    | Llama2-Chinese is fine tuned for Chinese                                                                                        |
-| wizard-vicuna-uncensored:latest |  llama  |     7B     | 3.8 GB    | Wizard Vicuna Uncensored is model based on Llama 2 uncensored by Eric H.                                                        |
+| wizard-vicuna-uncensored:latest |  wizard  |     7B     | 3.8 GB    | Wizard Vicuna Uncensored is model based on Llama 2 uncensored by Eric H.                                                        |
 |          xwinlm:latest          |  llama  |     7B     | 3.8 GB    | Conversational model based on Llama 2 that performs competitively on various benchmarks.                                        |
 |      stable-beluga:latest      |  llama  |     7B     | 3.8 GB    | Llama 2 based model fine tuned on an Orca-style dataset. Originally called Free Willy.                                          |
 |          orca2:latest          |  llama  |     7B     | 3.8 GB    | Orca 2 is built by Microsoft, and is a fine-tuned version of Llama2 which excels particularly in reasoning.                    |
 |       deepseek-llm:latest       |  llama  |     7B     | 4.0 GB    | An advanced language model crafted with 2 trillion bilingual tokens.                                                            |
-|         mistral:latest         |  llama  |     7B     | 4.1 GB    | The 7B model released by Mistral AI, updated to version 0.2.                                                                    |
-|     mistral-openorca:latest     |  llama  |     7B     | 4.1 GB    | Mistral OpenOrca is fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.                                       |
-|       mistrallite:latest       |  llama  |     7B     | 4.1 GB    | MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.                      |
+|         mistral:latest         | mistral |     7B     | 4.1 GB    | The 7B model released by Mistral AI, updated to version 0.2.                                                                    |
+|     mistral-openorca:latest     | mistral |     7B     | 4.1 GB    | Mistral OpenOrca is fine-tuned on top of the Mistral 7B model using the OpenOrca dataset.                                       |
+|       mistrallite:latest       | mistral |     7B     | 4.1 GB    | MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.                      |
 |         openchat:latest         |  llama  |     7B     | 4.1 GB    | An open-source model trained on a wide variety of data, surpassing ChatGPT on various benchmarks.                               |
 |       starling-lm:latest       |  llama  |     7B     | 4.1 GB    | Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness. |
 |          llama3:latest          |  llama  |     8B     | 4.7 GB    | Llama3 is the most powerful model by Meta yet.                                                                                  |
 |          gemma:latest          |  gemma  |     9B     | 5.2 GB    | Gemma is a family of lightweight, state-of-the-art open models built by Google DeepMind.                                        |
 |          solar:latest          |  llama  |    11B    | 6.1 GB    | A compact, yet powerful 10.7B large language model designed for single-turn conversation.                                       |
-|   wizardlm-uncensored:latest   |  llama  |    13B    | 7.4 GB    | Uncensored version of Wizard LM model                                                                                           |
-|      wizard-vicuna:latest      |  llama  |    13B    | 7.4 GB    | Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.                                               |
+|   wizardlm-uncensored:latest   |  wizard  |    13B    | 7.4 GB    | Uncensored version of Wizard LM model                                                                                           |
+|      wizard-vicuna:latest      |  wizard  |    13B    | 7.4 GB    | Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.                                               |
