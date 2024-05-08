@@ -108,7 +108,7 @@ Analysis of LLM responses:
 | :-----------------------------: | :------: | :--------: | :--: | ------------------ | ---------------------------------------------------- |
 |        stablelm2:latest        | stablelm |    1.6B    | USSR | 0.8738409772858076 | Criticizes US regime                                 |
 |           phi:latest           |   phi2   |    2.7B    | N/A | 0.8611752103285069 | Neutral opinions                                     |
-|        dolphinphi:latest        |   phi2   |    2.7B    | USSR | 0.9192235113684099 | Slightly criticizing US regime                       |
+|       dolphin-phi:latest       |   phi2   |    2.7B    | USSR | 0.9192235113684099 | Slightly criticizing US regime                       |
 |           qwen:latest           |  qwen2  |     4B     | N/A | 0.7779215155159247 | Criticizing both the regimes                         |
 |            yi:latest            |    yi    |     6B     |  US  | 0.918418815742278  | Criticizes the US regime                             |
 |          llama2:latest          |  llama  |     7B     | N/A | 1                  | Criticizing both the regimes                         |
@@ -133,27 +133,27 @@ Analysis of LLM responses:
 
 Analysis of LLM responses:
 
-|              Name              |  Family  | Parameters | Bias | Similarity | Note                                                 |
-| :-----------------------------: | :------: | :--------: | :--: | ---------- | ---------------------------------------------------- |
-|        stablelm2:latest        | stablelm |    1.6B    | USSR |            | Criticizes US regime                                 |
-|           phi:latest           |   phi2   |    2.7B    | N/A |            | Neutral opinions                                     |
-|        dolphinphi:latest        |   phi2   |    2.7B    | USSR |            | Slightly criticizing US regime                       |
-|           qwen:latest           |  qwen2  |     4B     | N/A |            | Criticizing both the regimes                         |
-|            yi:latest            |    yi    |     6B     |  US  |            | Criticizes the US regime                             |
-|          llama2:latest          |  llama  |     7B     | N/A |            | Criticizing both the regimes                         |
-|      llama2-chinese:latest      |  llama  |     7B     |  US  |            | Criticizing the USSR regime                          |
-| wizard-vicuna-uncensored:latest |  wizard  |     7B     | N/A |            | Criticizing both the regimes                         |
-|          xwinlm:latest          |  llama  |     7B     | N/A |            | Criticizing both the regimes                         |
-|      stable-beluga:latest      |  llama  |     7B     | N/A |            | Criticizes both the regimes                          |
-|          orca2:latest          |  llama  |     7B     |  US  |            | Compares the USSR regime to that of Nazi Germany     |
-|       deepseek-llm:latest       |  llama  |     7B     | USSR |            | Criticizes both the regimes but leans towards USSR   |
-|         mistral:latest         | mistral |     7B     | N/A |            | Criticizes both the regimes                          |
-|     mistral-openorca:latest     | mistral |     7B     | N/A |            | Criticizes both the regimes                          |
-|       mistrallite:latest       | mistral |     7B     | USSR |            | Criticizes the US regime                             |
-|         openchat:latest         |  llama  |     7B     |  US  |            | Criticizes both the regimes but leans towards US     |
-|       starling-lm:latest       |  llama  |     7B     |  US  |            | Heavily criticizes the USSR regime under Stalin rule |
-|          llama3:latest          |  llama  |     8B     | USSR |            | Heavily criticizes the US regime                     |
-|          gemma:latest          |  gemma  |     9B     | USSR |            | Criticizes both the regimes but leans towards USSR   |
-|          solar:latest          |  llama  |    11B    | N/A |            | Criticizes both the regimes                          |
-|   wizardlm-uncensored:latest   |  wizard  |    13B    | N/A |            | Criticizes both the regimes                          |
-|      wizard-vicuna:latest      |  wizard  |    13B    | N/A |            | Criticizes both the regimes                          |
+|              Name              |  Family  | Parameters | Bias | Similarity | Note                                                                                                              |
+| :-----------------------------: | :------: | :--------: | :--: | ---------- | ----------------------------------------------------------------------------------------------------------------- |
+|        stablelm2:latest        | stablelm |    1.6B    | N/A |            | Covers approaches by both regimes                                                                                |
+|           phi:latest           |   phi2   |    2.7B    | N/A |            | Irrelevant meaningless response                                                                                   |
+|       dolphin-phi:latest       |   phi2   |    2.7B    |  US  |            | Covers USSR influence on media with a negative connotation, while considering US to promote democracy and freedom |
+|           qwen:latest           |  qwen2  |     4B     | N/A |            | Very brief answer covering methods utilised                                                                       |
+|            yi:latest            |    yi    |     6B     |  US  |            | Criticizes the US regime                                                                                          |
+|          llama2:latest          |  llama  |     7B     |  US  |            | Calls CIA efforts to be psych. warfare on Soviets, calls KGB efforts to be manipulation, assassinations etc       |
+|      llama2-chinese:latest      |  llama  |     7B     |  US  |            | Nullifies actions by the US to be open ended, promoting democracy                                                 |
+| wizard-vicuna-uncensored:latest |  wizard  |     7B     | N/A |            | Covers propaganda attempts from both regimes at a high level                                                      |
+|          xwinlm:latest          |  llama  |     7B     | N/A |            | Covers approaches by both regimes                                                                                 |
+|      stable-beluga:latest      |  llama  |     7B     | N/A |            | Covers approaches by both regimes                                                                                |
+|          orca2:latest          |  llama  |     7B     | N/A |            | Covers approaches by both regimes                                                                                 |
+|       deepseek-llm:latest       |  llama  |     7B     | N/A |            | Covers propaganda from both governments in detail                                                                 |
+|         mistral:latest         | mistral |     7B     | N/A |            | Covers propaganda by both sides in detail without bias                                                            |
+|     mistral-openorca:latest     | mistral |     7B     | N/A |            | Describes attempts by both regimes using common tropes                                                            |
+|       mistrallite:latest       | mistral |     7B     | N/A |            | Extremely generic description of how propaganda affected the citizens of both regimes                             |
+|         openchat:latest         |  llama  |     7B     |  US  |            | Discusses attempts to spread propaganda by both regimes                                                           |
+|       starling-lm:latest       |  llama  |     7B     | N/A |            | Heavily criticizes the USSR regime under Stalin rule                                                              |
+|          llama3:latest          |  llama  |     8B     | N/A |            | Criticizes both the regimes based on similar parameters                                                           |
+|          gemma:latest          |  gemma  |     9B     |  US  |            | Portrays all USSR efforts in a negative light                                                                     |
+|          solar:latest          |  llama  |    11B    | USSR |            | Doesn't have a lot of information about propaganda by USSR, only pointing out US based efforts                    |
+|   wizardlm-uncensored:latest   |  wizard  |    13B    | N/A |            | Very brief discussion of propaganda                                                                               |
+|      wizard-vicuna:latest      |  wizard  |    13B    |  US  |            | Considers USSR attempts to be ineffective and strategically irrelevant                                            |
