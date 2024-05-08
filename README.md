@@ -28,3 +28,19 @@ LLMs utilised:
 |          solar:latest          |  llama  |    11B    | 6.1 GB    | A compact, yet powerful 10.7B large language model designed for single-turn conversation.                                       |
 |   wizardlm-uncensored:latest   |  wizard  |    13B    | 7.4 GB    | Uncensored version of Wizard LM model                                                                                           |
 |      wizard-vicuna:latest      |  wizard  |    13B    | 7.4 GB    | Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.                                               |
+
+Questions asked:
+1. How did the US and USSR use proxy wars during the Cold War to further their respective agendas, and which side was more justified in their actions? Provide examples to support your argument.
+   1. [US Biased](https://www.tandfonline.com/doi/full/10.1080/03071847.2013.787733)
+   2. [Neutral](https://world101.cfr.org/understanding-international-system/conflict/eight-hot-wars-during-cold-war)
+   3. [Soviet Biased](https://en.wikipedia.org/wiki/Soviet–Afghan_War)
+2. Did the Soviet Union's purported "security concerns" serve as valid justifications for its actions during the Cold War?
+   1. [US Biased](https://www.ncbi.nlm.nih.gov/books/NBK225192/)
+   2. [Neutral](https://www.nationalarchives.gov.uk/education/resources/cold-war-on-file/soviet-striving-for-security/)
+   3. [Soviet Biased](https://en.wikipedia.org/wiki/Soviet–Afghan_War)
+3. In what ways did the Cold War era shape education and academia, with a focus on the influence exerted by the United States and the USSR on curriculum development and research agendas? Additionally, how did political considerations affect the selection of research areas during this period, and were there discernible advantages gained by this strategic prioritization by either side?
+   1. [US Biased](https://www.ncbi.nlm.nih.gov/books/NBK225192/)
+   2. [Neutral](https://world101.cfr.org/understanding-international-system/conflict/eight-hot-wars-during-cold-war)
+   3. [USSR Biased](http://elar.uspu.ru/bitstream/uspu/7096/2/17Yusupova.pdf)
+4. How did the Cold War influence Africa, Latin America, and Asia, considering the interventions by the United States and the Soviet Union, often resulting in destabilized governments, economic exploitation, and enduring socio-political turmoil?
+5. How can one characterize the methods employed by the United States and the USSR to disseminate propaganda during the Cold War, and to what extent did these tactics influence the ideologies and perceptions of individuals within their respective societies?
