@@ -12,7 +12,7 @@ Similarity between llama2_response.txt and mistrallite_response.txt: 0.898523680
 Similarity between llama2_response.txt and wizardlm-uncensored_response.txt: 0.8725076036961048
 Similarity between llama2_response.txt and mistral-openorca_response.txt: 0.8900706511333327
 Similarity between llama2_response.txt and mistral_response.txt: 0.9232081358625143
-Similarity between llama2_response.txt and wizard-vicuna_response.txt: 0.7321327732474485
+Similarity between llama2_response.txt and wizard-vicuna_response.txt: 0.88243110552639
 Similarity between llama2_response.txt and wizard-vicuna-uncensored_response.txt: 0.8920991522718106
 Similarity between llama2_response.txt and openchat_response.txt: 0.9199763617186796
 Similarity between llama2_response.txt and xwinlm_response.txt: 0.9100661649655151

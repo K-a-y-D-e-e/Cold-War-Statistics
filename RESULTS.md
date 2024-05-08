@@ -98,7 +98,7 @@ Analysis of LLM responses:
 |          gemma:latest          |  gemma  |     9B     | USSR | 0.8943976614504557 | Supports the idea of USSR saying their actions were valid and justified                                                                    |
 |          solar:latest          |  llama  |    11B    | N/A | 0.9120169404289376 | Stays neutral discussing initiatives by both governments without bias                                                                      |
 |   wizardlm-uncensored:latest   |  wizard  |    13B    |  US  | 0.8725076036961048 | Criticises the USSR, citing a lack of intellectual freedom, states that education was not focused on science, but on propogating communism |
-|      wizard-vicuna:latest      |  wizard  |    13B    |  US  | 0.7321327732474485 | Cites that USSR focused on social sciences in order to promote communist ideologies                                                        |
+|      wizard-vicuna:latest      |  wizard  |    13B    |  US  | 0.8824311055263934 | Cites that USSR focused on social sciences in order to promote communist ideologies                                                        |
 
 4. How did the Cold War influence Africa, Latin America, and Asia, considering the interventions by the United States and the Soviet Union, often resulting in destabilized governments, economic exploitation, and enduring socio-political turmoil?
 
