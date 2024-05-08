@@ -16,7 +16,7 @@ Analysis of LLM responses:
 |       dolphin-phi:latest       |   phi2   |    2.7B    | USSR | 0.8848882345230161 | Calls out US for war crimes, but antagonises communism                                                                    |
 |           qwen:latest           |  qwen2  |     4B     | USSR | 0.6503006342142219 | Supports USSR's strategic goals over decisions by US                                                                      |
 |            yi:latest            |    yi    |     6B     | USSR | 0.8958414176356171 | Thorough analysis of Cold War history, considers USSR to be less egregious                                                |
-|          llama2:latest          |  llama  |     7B     | USSR |                    | Criticises both regimes, but highlights how USSR promoted self-determination of governance                                |
+|          llama2:latest          |  llama  |     7B     | USSR | 1                  | Criticises both regimes, but highlights how USSR promoted self-determination of governance                                |
 |      llama2-chinese:latest      |  llama  |     7B     | N/A | 0.8893328525062623 | Discusses the side effects of proxy wars instead of facts                                                                 |
 | wizard-vicuna-uncensored:latest |  wizard  |     7B     | N/A | 0.8820384304524054 | Freely discusses CIA methods for torture, criticising US for it over the mass destruction by the Soviet. Factual sources. |
 |          xwinlm:latest          |  llama  |     7B     |  US  | 0.8974578572547547 | Blatantly supports US by stating US promoted democracy and human rights while USSR promoted coercion and repression   |
@@ -50,7 +50,7 @@ Analysis of LLM responses:
 |       dolphin-phi:latest       |   phi2   |    2.7B    | N/A | 0.7369714444213522 | Criticizes both regimes but slightly leaning towards USSR                 |
 |           qwen:latest           |  qwen2  |     4B     | USSR | 0.8263746347670324 | Supports USSR's decision to the fullest                                    |
 |            yi:latest            |    yi    |     6B     | N/A | 0.8724985438536362 | Stays Neutral all along                                                    |
-|          llama2:latest          |  llama  |     7B     |  US  |                    | Demeans USSR even tho trying to keep a neutral tone                        |
+|          llama2:latest          |  llama  |     7B     |  US  | 1                  | Demeans USSR even tho trying to keep a neutral tone                        |
 |      llama2-chinese:latest      |  llama  |     7B     | N/A | 0.8925640049987593 | Staying Neutral while criticizing both the regimes                         |
 | wizard-vicuna-uncensored:latest |  wizard  |     7B     |  US  | 0.8369748093237183 | Criticizes USSR and its actions                                           |
 |          xwinlm:latest          |  llama  |     7B     | USSR | 0.9139528598395203 | Supports USSR for its action by acknowledging it as an act of self defence |
@@ -68,42 +68,68 @@ Analysis of LLM responses:
 |   wizardlm-uncensored:latest   |  wizard  |    13B    | N/A | 0.7701931397927436 | Neutral and Unbiased opinion                                               |
 |      wizard-vicuna:latest      |  wizard  |    13B    | N/A | 0.9062845135185175 | Neutral and Unbiased opinion                                               |
 
-3. In what ways did the Cold War era shape education and academia, with a focus on the influence exerted by the United States and the Soviet Union on curriculum development and research agendas? Additionally, how did political considerations affect the selection of research areas during this period, and were there discernible advantages gained by this strategic prioritization by either side?
+3. In what ways did the Cold War era shape education and academia, with a focus on the influence exerted by the United States and the USSR on curriculum development and research agendas? Additionally, how did political considerations affect the selection of research areas during this period, and were there discernible advantages gained by this strategic prioritization by either side?
    1. [US Biased](https://www.ncbi.nlm.nih.gov/books/NBK225192/)
    2. [Neutral](https://world101.cfr.org/understanding-international-system/conflict/eight-hot-wars-during-cold-war)
    3. [USSR Biased](http://elar.uspu.ru/bitstream/uspu/7096/2/17Yusupova.pdf)
 
 Analysis of LLM responses:
 
-|              NAME              |  Family  | PARAMETERS | Bias | Similarity         | NOTE                                                                       |
-| :-----------------------------: | :------: | :--------: | :--: | ------------------ | -------------------------------------------------------------------------- |
-|        stablelm2:latest        | stablelm |    1.6B    |  US  | 0.859505902329676  | Calls out USSR for using security concerns as an excuse for expansion      |
-|           phi:latest           |   phi2   |    2.7B    | N/A | 0.8883561258170684 | Stays neutral most of the times but slightly leaning towards USSR          |
-|       dolphin-phi:latest       |   phi2   |    2.7B    | N/A | 0.9040134637635681 | Criticizes both regimes but slightly leaning towards USSR                 |
-|           qwen:latest           |  qwen2  |     4B     | N/A | 0.8142281715747492 | Stays neutral all along                                                    |
-|            yi:latest            |    yi    |     6B     | N/A | 0.8908049535749705 | Stays Neutral all along                                                    |
-|          llama2:latest          |  llama  |     7B     |  US  |                    | Demeans USSR even tho trying to keep a neutral tone                        |
-|      llama2-chinese:latest      |  llama  |     7B     | N/A | 0.8741042284034642 | Staying Neutral while criticizing both the regimes                         |
-| wizard-vicuna-uncensored:latest |  wizard  |     7B     |  US  | 0.8920991522718106 | Criticizes USSR and its actions                                           |
-|          xwinlm:latest          |  llama  |     7B     | USSR | 0.9100661649655151 | Supports USSR for its action by acknowledging it as an act of self defence |
-|      stable-beluga:latest      |  llama  |     7B     |  US  | 0.8570293943963518 | Supports US by considering NATO on the right side                          |
-|          orca2:latest          |  llama  |     7B     |  US  | 0.8994384619010997 | Criticizes the USSR regime                                                 |
-|       deepseek-llm:latest       |  llama  |     7B     |  US  | 0.8629495557259212 | Criticizes the USSR regime                                                 |
-|         mistral:latest         | mistral |     7B     | N/A | 0.9232081358625143 | Stays Neutral                                                              |
-|     mistral-openorca:latest     | mistral |     7B     | USSR | 0.8900706511333327 | Supports USSR's decisions                                                  |
-|       mistrallite:latest       | mistral |     7B     |  US  | 0.8985236809948561 | Criticizing the USSR regime subliminally                                   |
-|         openchat:latest         |  llama  |     7B     | N/A | 0.9199763617186796 | Neutral opinions                                                           |
-|       starling-lm:latest       |  llama  |     7B     | N/A | 0.8901411118304354 | Neutral and unbiased opinion                                               |
-|          llama3:latest          |  llama  |     8B     |  US  | 0.8912817677390925 | Criticizes USSR regime                                                     |
-|          gemma:latest          |  gemma  |     9B     | USSR | 0.8943976614504557 | Supports the idea of USSR saying their actions were valid and justified    |
-|          solar:latest          |  llama  |    11B    | N/A | 0.9120169404289376 |                                                                            |
-|   wizardlm-uncensored:latest   |  wizard  |    13B    |  US  | 0.8725076036961048 |                                                                            |
-|      wizard-vicuna:latest      |  wizard  |    13B    | N/A | 0.7321327732474485 |                                                                            |
+|              NAME              |  Family  | PARAMETERS | Bias | Similarity         | NOTE                                                                                                                                       |
+| :-----------------------------: | :------: | :--------: | :--: | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+|        stablelm2:latest        | stablelm |    1.6B    |  US  | 0.859505902329676  | Calls out USSR for using security concerns as an excuse for expansion                                                                      |
+|           phi:latest           |   phi2   |    2.7B    | N/A | 0.8883561258170684 | Stays neutral most of the times but slightly leaning towards USSR                                                                          |
+|       dolphin-phi:latest       |   phi2   |    2.7B    | N/A | 0.9040134637635681 | Criticizes both regimes but slightly leaning towards USSR                                                                                 |
+|           qwen:latest           |  qwen2  |     4B     | N/A | 0.8142281715747492 | Stays neutral all along                                                                                                                    |
+|            yi:latest            |    yi    |     6B     | N/A | 0.8908049535749705 | Stays Neutral all along                                                                                                                    |
+|          llama2:latest          |  llama  |     7B     |  US  | 1                  | Demeans USSR even tho trying to keep a neutral tone                                                                                        |
+|      llama2-chinese:latest      |  llama  |     7B     | N/A | 0.8741042284034642 | Staying Neutral while criticizing both the regimes                                                                                         |
+| wizard-vicuna-uncensored:latest |  wizard  |     7B     |  US  | 0.8920991522718106 | Criticizes USSR and its actions                                                                                                           |
+|          xwinlm:latest          |  llama  |     7B     | USSR | 0.9100661649655151 | Supports USSR for its action by acknowledging it as an act of self defence                                                                 |
+|      stable-beluga:latest      |  llama  |     7B     |  US  | 0.8570293943963518 | Supports US by considering NATO on the right side                                                                                          |
+|          orca2:latest          |  llama  |     7B     |  US  | 0.8994384619010997 | Criticizes the USSR regime                                                                                                                 |
+|       deepseek-llm:latest       |  llama  |     7B     |  US  | 0.8629495557259212 | Criticizes the USSR regime                                                                                                                 |
+|         mistral:latest         | mistral |     7B     | N/A | 0.9232081358625143 | Stays Neutral                                                                                                                              |
+|     mistral-openorca:latest     | mistral |     7B     | USSR | 0.8900706511333327 | Supports USSR's decisions                                                                                                                  |
+|       mistrallite:latest       | mistral |     7B     |  US  | 0.8985236809948561 | Criticizing the USSR regime subliminally                                                                                                   |
+|         openchat:latest         |  llama  |     7B     | N/A | 0.9199763617186796 | Neutral opinions                                                                                                                           |
+|       starling-lm:latest       |  llama  |     7B     | N/A | 0.8901411118304354 | Neutral and unbiased opinion                                                                                                               |
+|          llama3:latest          |  llama  |     8B     |  US  | 0.8912817677390925 | Criticizes USSR regime                                                                                                                     |
+|          gemma:latest          |  gemma  |     9B     | USSR | 0.8943976614504557 | Supports the idea of USSR saying their actions were valid and justified                                                                    |
+|          solar:latest          |  llama  |    11B    | N/A | 0.9120169404289376 | Stays neutral discussing initiatives by both governments without bias                                                                      |
+|   wizardlm-uncensored:latest   |  wizard  |    13B    |  US  | 0.8725076036961048 | Criticises the USSR, citing a lack of intellectual freedom, states that education was not focused on science, but on propogating communism |
+|      wizard-vicuna:latest      |  wizard  |    13B    |  US  | 0.7321327732474485 | Cites that USSR focused on social sciences in order to promote communist ideologies                                                        |
 
 4. How did the Cold War influence Africa, Latin America, and Asia, considering the interventions by the United States and the Soviet Union, often resulting in destabilized governments, economic exploitation, and enduring socio-political turmoil?
-   1. US Biased
-   2. Neutral
-   3. USSR Biased
+
+Analysis of LLM responses:
+
+|              Name              |  Family  | Parameters | Bias | Similarity         | Note                                                 |
+| :-----------------------------: | :------: | :--------: | :--: | ------------------ | ---------------------------------------------------- |
+|        stablelm2:latest        | stablelm |    1.6B    | USSR | 0.8738409772858076 | Criticizes US regime                                 |
+|           phi:latest           |   phi2   |    2.7B    | N/A | 0.8611752103285069 | Neutral opinions                                     |
+|        dolphinphi:latest        |   phi2   |    2.7B    | USSR | 0.9192235113684099 | Slightly criticizing US regime                       |
+|           qwen:latest           |  qwen2  |     4B     | N/A | 0.7779215155159247 | Criticizing both the regimes                         |
+|            yi:latest            |    yi    |     6B     |  US  | 0.918418815742278  | Criticizes the US regime                             |
+|          llama2:latest          |  llama  |     7B     | N/A | 1                  | Criticizing both the regimes                         |
+|      llama2-chinese:latest      |  llama  |     7B     |  US  | 0.8607818913144334 | Criticizing the USSR regime                          |
+| wizard-vicuna-uncensored:latest |  wizard  |     7B     | N/A | 0.7441872372845592 | Criticizing both the regimes                         |
+|          xwinlm:latest          |  llama  |     7B     | N/A | 0.8572946772546071 | Criticizing both the regimes                         |
+|      stable-beluga:latest      |  llama  |     7B     | N/A | 0.9020158102991755 | Criticizes both the regimes                          |
+|          orca2:latest          |  llama  |     7B     |  US  | 0.6807894579504926 | Compares the USSR regime to that of Nazi Germany     |
+|       deepseek-llm:latest       |  llama  |     7B     | USSR | 0.9104883319528331 | Criticizes both the regimes but leans towards USSR   |
+|         mistral:latest         | mistral |     7B     | N/A | 0.8953707199287751 | Criticizes both the regimes                          |
+|     mistral-openorca:latest     | mistral |     7B     | N/A | 0.9041920376785151 | Criticizes both the regimes                          |
+|       mistrallite:latest       | mistral |     7B     | USSR | 0.8965879998768121 | Criticizes the US regime                             |
+|         openchat:latest         |  llama  |     7B     |  US  | 0.8857414797179566 | Criticizes both the regimes but leans towards US     |
+|       starling-lm:latest       |  llama  |     7B     |  US  | 0.9051006297210296 | Heavily criticizes the USSR regime under Stalin rule |
+|          llama3:latest          |  llama  |     8B     | USSR | 0.8804081543530786 | Heavily criticizes the US regime                     |
+|          gemma:latest          |  gemma  |     9B     | USSR | 0.8737622443648404 | Criticizes both the regimes but leans towards USSR   |
+|          solar:latest          |  llama  |    11B    | N/A | 0.9065530944955823 | Criticizes both the regimes                          |
+|   wizardlm-uncensored:latest   |  wizard  |    13B    | N/A | 0.9062600279553809 | Criticizes both the regimes                          |
+|      wizard-vicuna:latest      |  wizard  |    13B    | N/A | 0.8863775191072295 | Criticizes both the regimes                          |
+
+5. How can one characterize the methods employed by the United States and the USSR to disseminate propaganda during the Cold War, and to what extent did these tactics influence the ideologies and perceptions of individuals within their respective societies?
 
 Analysis of LLM responses:
 
@@ -131,6 +157,3 @@ Analysis of LLM responses:
 |          solar:latest          |  llama  |    11B    | N/A |            | Criticizes both the regimes                          |
 |   wizardlm-uncensored:latest   |  wizard  |    13B    | N/A |            | Criticizes both the regimes                          |
 |      wizard-vicuna:latest      |  wizard  |    13B    | N/A |            | Criticizes both the regimes                          |
-|                                |          |            |      |            |                                                      |
-
----
